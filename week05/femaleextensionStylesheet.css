@@ -1,0 +1,122 @@
+body{
+    background-color: aqua;
+    font-size: larger;
+    font-family: 'Jura', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.people-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-auto-rows: 250px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.one {
+    border: 7px solid black;
+    border-radius: 20px;
+    grid-column: 2;
+    text-align: center;
+    text-decoration: none;
+}
+.image1 img{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    left: -5px; top: 30px; 
+} 
+
+.two {
+    border: 7px solid black;
+    border-radius: 20px;
+    grid-column-start: 1;
+    text-align: center;
+    text-decoration: none;
+}
+.image2 img{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    left: -5px; top: 30px; 
+} 
+.artwork2 img{
+    width: 500px;
+    height: auto;
+}
+
+.three {
+    border: 7px solid black;
+    border-radius: 20px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+    text-decoration: none;
+}
+.image3 img{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    left: -5px; top: 30px; 
+} 
+
+.four {
+    border: 7px solid black;
+    border-radius: 20px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    text-align: center;
+    text-decoration: none;
+}
+.image4 img{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    left: -5px; top: 30px; 
+} 
+.artwork4 img{
+    width: 550px;
+    height: auto;
+}
+
+.five {
+    border: 7px solid black;
+    border-radius: 20px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: center;
+    text-decoration: none;
+}
+.image5 img{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    left: -5px; top: 30px; 
+}
+.artwork5 img{
+    width: 450px;
+    height: auto;
+} 
+
+.backwardButton img{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    left: 870px; top: 800px;
+}
+.forwardButton img{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    left: 1010px; top: 800px;
+    transform: rotate(180deg)
+}
+.homeButton img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 935px; top: 800px;
+}
