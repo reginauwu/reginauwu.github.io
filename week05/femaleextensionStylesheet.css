@@ -1,10 +1,14 @@
 body{
-    background-color: aqua;
+    background-color: rgb(172, 229, 255);
     font-size: larger;
     font-family: 'Jura', sans-serif;
 }
 
 h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -16,12 +20,30 @@ h1 {
     justify-content: center;
 }
 
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-auto-rows: minmax(250px, auto);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.reaction-container{
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
 .one {
     border: 7px solid black;
     border-radius: 20px;
-    grid-column: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
     text-align: center;
     text-decoration: none;
+    background-color: rgb(172, 229, 255);
 }
 .image1 img{
     width: 120px;
@@ -36,6 +58,7 @@ h1 {
     grid-column-start: 1;
     text-align: center;
     text-decoration: none;
+    background-color: rgb(172, 229, 255);
 }
 .image2 img{
     width: 120px;
@@ -55,6 +78,7 @@ h1 {
     grid-row-start: 2;
     text-align: center;
     text-decoration: none;
+    background-color: rgb(172, 229, 255);
 }
 .image3 img{
     width: 120px;
@@ -70,6 +94,7 @@ h1 {
     grid-row-start: 2;
     text-align: center;
     text-decoration: none;
+    background-color: rgb(172, 229, 255);
 }
 .image4 img{
     width: 120px;
@@ -89,6 +114,7 @@ h1 {
     grid-row-start: 3;
     text-align: center;
     text-decoration: none;
+    background-color: rgb(172, 229, 255);
 }
 .image5 img{
     width: 120px;
@@ -105,18 +131,69 @@ h1 {
     width: 40px;
     height: auto;
     position: absolute;
-    left: 870px; top: 800px;
+    left: 870px; top: 850px;
 }
 .forwardButton img{
     width: 40px;
     height: auto;
     position: absolute;
-    left: 1010px; top: 800px;
+    left: 1010px; top: 850px;
     transform: rotate(180deg)
 }
 .homeButton img{
     width: 50px;
     height: auto;
     position: absolute;
-    left: 935px; top: 800px;
+    left: 935px; top: 850px;
+}
+
+.about{
+    text-align: center;
+    grid-row-start: 2;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+.cornelia-info img {
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+.about_pic img {
+    width: 500px;
+    height: auto;
+}
+
+.the_artwork{
+    text-align: center;
+    grid-row-start: 2;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+
+.thoughts {
+    text-align: center;
+    grid-row-start: 2;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+.react img {
+    width: 220px;
+    height: auto;
+    position: relative;
+}
+
+#fei {
+    background-color: rgb(245, 207, 164);
+}
+
+.wireframe {
+    background-color: white;
+}
+.wireframe img{
+    width: 600px;
+    height: auto;
+}
+
+#regina {
+    background-color: rgb(245, 207, 164);
 }
