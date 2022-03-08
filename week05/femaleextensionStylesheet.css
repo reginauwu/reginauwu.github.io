@@ -26,6 +26,9 @@ h2 {
     grid-auto-rows: minmax(250px, auto);
     grid-gap: 20px;
     justify-content: center;
+    position: absolute;
+    top: calc(50% - 125px);
+    left: calc(50% - 620px);
 }
 
 .reaction-container{
@@ -130,26 +133,39 @@ h2 {
 .backwardButton img{
     width: 40px;
     height: auto;
-    position: absolute;
-    left: 870px; top: 850px;
 }
 .forwardButton img{
     width: 40px;
     height: auto;
-    position: absolute;
-    left: 1010px; top: 850px;
     transform: rotate(180deg)
 }
 .homeButton img{
     width: 50px;
     height: auto;
-    position: absolute;
-    left: 935px; top: 850px;
 }
+
+.homeButton {
+    position: absolute;
+    left: calc(50% - 25px); 
+    bottom: 0%;
+}
+
+.forwardButton{
+    position: absolute;
+    left: calc(75% - 20px);
+    bottom: 0%;
+}
+
+.backwardButton{
+    position: absolute;
+    left: calc(25% - 20px);
+    bottom: 0%;
+}
+
 
 .about{
     text-align: center;
-    grid-row-start: 2;
+    grid-row-start: 1;
     border: 7px solid black;
     border-radius: 20px;
 }
@@ -165,14 +181,14 @@ h2 {
 
 .the_artwork{
     text-align: center;
-    grid-row-start: 2;
+    grid-row-start: 1;
     border: 7px solid black;
     border-radius: 20px;
 }
 
 .thoughts {
     text-align: center;
-    grid-row-start: 2;
+    grid-row-start: 1;
     border: 7px solid black;
     border-radius: 20px;
 }
