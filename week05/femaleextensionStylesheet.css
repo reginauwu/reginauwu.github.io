@@ -37,7 +37,11 @@ h2 {
     grid-auto-rows: minmax(400px, auto);
     grid-gap: 20px;
     justify-content: center;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 920px);
 }
+
 
 .one {
     border: 7px solid black;
