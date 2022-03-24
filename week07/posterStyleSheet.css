@@ -3,6 +3,8 @@ body {
     background-image: url(pg21.jpg);
     font-size: large;
     font-family: 'Barlow', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 .image {
@@ -15,7 +17,7 @@ body {
 }
 
 .image__img {
-    display: block;
+    display: inline-block;
     width: 100%;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 .image__img2 {
-    display: block;
+    display: inline-block;
     width: 25%;
     /* transition: opacity 500ms ease-in-out; */
     transition: transform 1s;
@@ -94,7 +96,7 @@ body {
 }
 
 .image__img3 {
-    display: block;
+    display: inline-block;
     width: 100%;
     /* transition: opacity 500ms ease-in-out; */
     transition: transform 1s;
@@ -131,7 +133,7 @@ body {
 }
 
 .image__img4 {
-    display: block;
+    display: inline-block;
     width: 50%;
     /* transition: opacity 500ms ease-in-out; */
     transition: transform 1s;
