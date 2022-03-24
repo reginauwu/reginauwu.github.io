@@ -8,7 +8,7 @@ body {
 }
 
 .imageRow {
-    Display: inline-block;
+    display: inline-block;
 }
 
 .image {
@@ -22,7 +22,8 @@ body {
 
 .image__img {
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
+    width: 33.3vw;
 }
 
 .image__overlay {
@@ -67,8 +68,8 @@ body {
 
 .image__img2 {
     display: inline-block;
-    width: 25%;
-    /* transition: opacity 500ms ease-in-out; */
+    /* width: 25%; */
+    width: 33.3vw;
     transition: transform 1s;
 }
 
@@ -101,8 +102,8 @@ body {
 
 .image__img3 {
     display: inline-block;
-    width: 100%;
-    /* transition: opacity 500ms ease-in-out; */
+    /* width: 100%; */
+    width: 33.3vw;
     transition: transform 1s;
 }
 
@@ -138,8 +139,8 @@ body {
 
 .image__img4 {
     display: inline-block;
-    width: 50%;
-    /* transition: opacity 500ms ease-in-out; */
+    /* width: 50%; */
+    width: 33.3vw;
     transition: transform 1s;
     animation: out-in 10s ease-in forwards;
 }
