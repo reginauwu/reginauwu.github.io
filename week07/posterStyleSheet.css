@@ -135,7 +135,7 @@ body {
     width: 50%;
     /* transition: opacity 500ms ease-in-out; */
     transition: transform 1s;
-    animation: out-in 7s ease-in forwards;
+    animation: out-in 10s ease-in forwards;
 }
 
 /* .image__img4:hover{
