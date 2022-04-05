@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(243, 62, 62);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* button {
+    padding: 10vw;
+    border-radius: 25px;
+    background-color: yellow;
+    position:absolute;
+    top: 10vw;
+    left: 25vw; 
+} */
+
+.button1 {
+    padding: 5vw;
+    border-radius: 25px;
+    background-color: rgb(65,167,215);
+    position:absolute;
+    top: 10vw;
+    left: 25vw;
+}
+
+.button2 {
+    padding: 5vw;
+    border-radius: 25px;
+    background-color: rgb(45,167,8);
+    position:absolute;
+    top: 10vw;
+    left: 50vw;
+}
+
+button:hover {
+    background-color: rgb(12,55,122);
+}
