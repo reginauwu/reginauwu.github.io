@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(171, 232, 165);
+    font-family: 'Sora', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: rgb(171, 232, 165);
+}
+
+li, a, button {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+h1 {
+    color: rgb(228, 255, 228);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(228, 255, 228);
+    font-size: 25px;
+    text-align: center;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: rgb(67, 111, 152);
+}
+
+.nav_links li a:hover {
+    color: rgb(238, 255, 0);
+}
+
+button {
+    font-size: 15px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(1, 100, 125, 1);
+}
+
+.world {
+    overflow: hidden;
+    position: relative;
+}
+
+.score {
+    position: absolute;
+    font-size: 3vmin;
+    right: 1vmin;
+    top: 1vmin;
+}
+
+.start-screen {
+    position: absolute;
+    font-size: 5vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide {
+    display: none;
+}
+
+.ground {
+    position: absolute;
+    width: 300%;
+    bottom: 0;
+    left: calc(var(--left) * 1%);
+}
+
+.frog {
+    --bottom: 0;
+    position: absolute;
+    left: 1%;
+    height: 30%;
+    bottom: calc(var(--bottom) * 1%);
+}
