@@ -34,18 +34,21 @@ export function getDinoRect() {
 }
 
 export function setDinoLose() {
-  dinoElem.src = "dino-lose.png"
+  // dinoElem.src = "dino-lose.png"
+  dinoElem.src = "frogDizzy.png"
 }
 
 function handleRun(delta, speedScale) {
   if (isJumping) {
-    dinoElem.src = `dino-stationary.png`
+    // dinoElem.src = `dino-stationary.png`
+    dinoElem.src = `frogJump.png`
     return
   }
 
   if (currentFrameTime >= FRAME_TIME) {
     dinoFrame = (dinoFrame + 1) % DINO_FRAME_COUNT
-    dinoElem.src = `dino-run-${dinoFrame}.png`
+    // dinoElem.src = `dino-run-${dinoFrame}.png`
+    dinoElem.src = `frogRun.png`
     currentFrameTime -= FRAME_TIME
   }
   currentFrameTime += delta * speedScale
